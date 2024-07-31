@@ -1,0 +1,36 @@
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.exe.config
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.exe.manifest
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.application
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.exe
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.pdb
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\bin\Debug\CardCreator.xml
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.Form1.resources
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.Form2.resources
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.Form3.resources
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.Resources.resources
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.vbproj.GenerateResource.Cache
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.exe.manifest
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.application
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.exe
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.xml
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.pdb
+C:\Users\jorr\Documents\Visual Studio 2015\Projects\CardCreator\CardCreator\obj\Debug\CardCreator.vbprojResolveAssemblyReference.cache
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.exe.config
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.exe
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.xml
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.pdb
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.Form1.resources
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.Form2.resources
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.Resources.resources
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.vbproj.GenerateResource.Cache
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.exe.manifest
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.application
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.exe
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.pdb
+C:\Users\jorr\Desktop\CardCreator\bin\Debug\CardCreator.xml
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.exe.manifest
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.application
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\Interop.Shell32.dll
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.vbproj.ResolveComReference.cache
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.vbprojAssemblyReference.cache
+C:\Users\jorr\Desktop\CardCreator\obj\Debug\CardCreator.vbproj.CoreCompileInputs.cache
