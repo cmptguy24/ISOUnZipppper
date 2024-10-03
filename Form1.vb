@@ -101,7 +101,7 @@ Public Class Form1
         files = dirinfo.GetFiles("*.iso", IO.SearchOption.AllDirectories)
         'Dim BannedFiles = ("*.txt")
         If files.Count > 0 Then
-            Process.Start("\\Cspdata1\gd\Internal QA Released Area\ZJer\MakeSigs\mksig.bat", FolderBrowserDialogDestination.SelectedPath)
+            Process.Start("\\C:\MakeSigs\", FolderBrowserDialogDestination.SelectedPath) 'place your MakeSig.bat file here
         Else
             MsgBox("No files found in destination directory")
         End If
