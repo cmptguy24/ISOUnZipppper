@@ -19,20 +19,6 @@ Public Class ISOUnzip
 
         AddSpecialAndStandardFolderImages() 'now add the Special Folder and Standard folder icon images to the Image list before you add any root nodes.
 
-        'just to get going, let`s add the Desktop and Documents folder along with all the Drives to the TreeView as root nodes. Even though you could
-        'navigate through the drives to get to the two folders, it can be handy to have quicker access to these folders without navigating through the
-        'drives to get to them every time.
-        'AddSpecialFolderRootNode(SpecialNodeFolders.Desktop) 'add the first root node in the TreeView
-        'AddSpecialFolderRootNode(\\ cspdata1 \ GD \ Internal QA Released Area)
-
-        ' Try
-        'AddCustomFolderRootNode("\\172.29.10.82\BuildPortalData$\temptransfers") 'add the second root node to the TreeView
-        'Catch ex As Exception 'if an exception was thrown trying to access a folder in the treeview. Depending on user rights it will display or not
-        'End Try
-        'Try
-        'AddCustomFolderRootNode("\\172.29.10.240\GD\External QA Release Area")
-        'Catch ex As Exception 'if an exception was thrown trying to access a folder in the treeview. Depending on user rights it will display or not
-        ' End Try
         System.Windows.Forms.Control.CheckForIllegalCrossThreadCalls = False
     End Sub
 
@@ -467,7 +453,7 @@ Public Class ISOUnzip
                     isolink = tn.Tag
 
                     My.Computer.FileSystem.CurrentDirectory = addNodes
-                    Dim destinationdirectory As String = ("\\172.29.10.82\BuildPortalData$\temptransfers\Jeremy\ItalySource\")
+                    Dim destinationdirectory As String = ("\\C:\Source\") 'Place your Source folder here
                     If System.IO.File.Exists(isoname) Then
                         If isoname.EndsWith(".zip") Then
                             Dim filesZip() As String = Directory.GetFiles(addNodes, "*.zip*")
@@ -506,7 +492,7 @@ Public Class ISOUnzip
     Private Sub unZipISOWorker_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles unZipISOWorker.DoWork
         Dim OrigPath = TxtBx_Path.Text 'sets path to copy content
         Dim ZipPath = ("C:\Users\jorr\AppData\Local\Temp\zips")
-        Dim destName As String = ("\\172.29.10.82\BuildPortalData$\temptransfers\Jeremy\ItalySource\")
+        Dim destName As String = ("C:\Source\") 'Place your Source folder here
         If OrigPath Is Nothing Then
             MsgBox("Please Choose a destination")
         ElseIf OrigPath Is "" Then
@@ -555,7 +541,7 @@ Public Class ISOUnzip
                 End If
                 Dim copydest As String = destName + dirName
                 Dim exePath As String = "C:\Program Files\7-Zip\7z.exe"
-                Dim args As String = "x " + full + " -o""\\172.29.10.82\BuildPortalData$\temptransfers\Jeremy\ItalySource\*"
+                Dim args As String = "x " + full + " -o""C:\Source\*" 'Place your Source folder here
                 System.Diagnostics.Process.Start(exePath, args)
 
                 UpdateListBox.Items.Add("Found " & fName)
